@@ -8,7 +8,7 @@ import java.sql.Statement;
 
 public class DbDmsConnect {
 
-    public static void main(String[] args) {
+    public static void main() {
         // データベース接続と結果取得のための変数
         Connection con = null;
         Statement stmt = null;
